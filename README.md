@@ -16,6 +16,10 @@
   <img alt="STARS" src="https://img.shields.io/github/stars/devcristianlopez?style=for-the-badge&color=00F0FF&labelColor=0D0221&label=STARS"/>
 </p>
 
+<p align="center">
+  <sub>🌐 <a href="https://lemoria.org/"><b>lemoria.org</b></a> &nbsp;·&nbsp; <a href="https://devcristianlopez.github.io/core-odoo/"><b>core-odoo</b></a></sub>
+</p>
+
 <div align="center">
   <img src="./assets/divider.svg" width="100%" alt=""/>
 </div>
