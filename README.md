@@ -1,16 +1,17 @@
 <div align="center">
-  <img src="./assets/header.svg" width="100%" alt="devcristianlopez — Full Stack Developer"/>
+  <img src="./assets/header.svg" width="100%" alt="devcristianlopez — Backend Developer & Software Architect"/>
 </div>
 
 <div align="center">
   <a href="https://github.com/devcristianlopez">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=900&color=00F0FF&center=true&vCenter=true&width=900&lines=%3E+booting+developer.profile...;%3E+full-stack+%2F%2F+ai+orchestration+%2F%2F+automation;%3E+building+tools+that+think%2C+automate+and+scale;%3E+open+to+collaborate+%3C%2F%3E" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=900&color=00F0FF&center=true&vCenter=true&width=900&lines=%3E%208%2B%20a%C3%B1os%20con%20Python%2C%20Django%20y%20Odoo;%3E%20IA%20aplicada%3A%20agentes%2C%20LLMs%20y%20RAG;%3E%20docencia%20t%C3%A9cnica%3A%20cloud%2C%20datos%20y%20DevOps;%3E%20Valpara%C3%ADso%2C%20Chile%20_" alt="Typing SVG"/>
   </a>
 </div>
 
 <p align="center">
   <img alt="STATUS" src="https://img.shields.io/badge/STATUS-ONLINE-00F0FF?style=for-the-badge&labelColor=0D0221"/>
-  <img alt="LOCATION" src="https://img.shields.io/badge/LOCATION-TODO-FF2A6D?style=for-the-badge&labelColor=0D0221"/>
+  <img alt="LOCATION" src="https://img.shields.io/badge/LOCATION-Valpara%C3%ADso%2C_Chile-FF2A6D?style=for-the-badge&labelColor=0D0221"/>
+  <img alt="EXPERIENCE" src="https://img.shields.io/badge/EXPERIENCE-8%2B_YEARS-B026FF?style=for-the-badge&labelColor=0D0221"/>
   <img alt="FOLLOWERS" src="https://img.shields.io/github/followers/devcristianlopez?style=for-the-badge&color=B026FF&labelColor=0D0221&label=FOLLOWERS"/>
   <img alt="STARS" src="https://img.shields.io/github/stars/devcristianlopez?style=for-the-badge&color=00F0FF&labelColor=0D0221&label=STARS"/>
 </p>
@@ -22,10 +23,10 @@
 ```console
 ┌──(devcristianlopez㉿github)-[~]
 └─$ whoami
-> Full Stack Developer · AI Orchestration · Automation
+> Backend Developer & Software Architect · AI Orchestration
 
 └─$ cat mission.txt
-"Construyo sistemas que piensan, automatizan y escalan."
+"Construyo backend, automatizo con IA y enseño lo que aprendo."
 ```
 
 <div align="center">
@@ -34,7 +35,9 @@
 
 <h2 align="center">⟨ 01 ⟩ · SYSTEM.PROFILE</h2>
 
-> Mi perfil, pero como código. Copia la idea, cambia los `TODO` y hazla tuya.
+> Desarrollador Backend y Arquitecto de Software con **8+ años** en Python, Django y Odoo. Diseño soluciones con IA aplicada (agentes, LLMs, RAG) y llevo **4+ años** como instructor técnico en cloud, datos y DevOps.
+>
+> Mi perfil, pero como código.
 
 ```python
 from dataclasses import dataclass
@@ -43,33 +46,37 @@ from typing import ClassVar
 
 @dataclass(slots=True)
 class Developer:
-    """Perfil vivo: identidad, stack y proyectos en un solo objeto."""
+    """Perfil vivo: identidad, stack, trayectoria y proyectos."""
 
     # ── identidad ──────────────────────────────────────────────────────────
     username: str = "devcristianlopez"
-    name: str = "TODO: Tu Nombre"
-    role: str = "Full Stack Developer & AI Orchestration"
-    location: str = "TODO: Ciudad, País"
-    email: str = "TODO: tu@email.com"
+    name: str = "Cristian López"
+    role: str = "Backend Developer & Software Architect"
+    focus: str = "Python · Django · Odoo · AI Orchestration"
+    location: str = "Valparaíso, Chile"
+    email: str = "cristianlopezvalpo@gmail.com"
 
     # ── links ──────────────────────────────────────────────────────────────
-    web: str = "TODO: https://tu-web.dev"
-    linkedin: str = "TODO: https://linkedin.com/in/tu-usuario"
-    x: str = "TODO: https://x.com/tu-usuario"
-    youtube: str = "TODO: https://youtube.com/@tu-canal"
+    web: str = "https://lemoria.org/"
+    linkedin: str = "https://linkedin.com/in/cristianl0pez"
+    github: str = "https://github.com/devcristianlopez"
+
+    # ── trayectoria ────────────────────────────────────────────────────────
+    years_experience: int = 8
+    years_teaching: int = 4
 
     # ── stack ──────────────────────────────────────────────────────────────
     languages: ClassVar[tuple[str, ...]] = ("Python", "TypeScript", "JavaScript", "SQL", "Bash")
-    backend: ClassVar[tuple[str, ...]] = ("FastAPI", "Django", "Flask", "Node.js", "WebSockets")
-    frontend: ClassVar[tuple[str, ...]] = ("React", "Astro", "Tailwind CSS", "Vite")
-    data: ClassVar[tuple[str, ...]] = ("PostgreSQL", "Redis", "SQLite", "MongoDB")
-    devops: ClassVar[tuple[str, ...]] = ("Docker", "GitHub Actions", "Nginx", "Linux")
-    ai: ClassVar[tuple[str, ...]] = ("OpenCode", "LLM orchestration", "RAG", "MCP", "Agents")
+    backend: ClassVar[tuple[str, ...]] = ("Django", "FastAPI", "Flask", "Odoo", "REST APIs")
+    frontend: ClassVar[tuple[str, ...]] = ("Vue.js", "React", "Astro", "Tailwind CSS")
+    data: ClassVar[tuple[str, ...]] = ("PostgreSQL", "MySQL", "SQL Server", "Redis", "Pandas")
+    devops: ClassVar[tuple[str, ...]] = ("Docker", "Nginx", "Linux", "CI/CD", "DigitalOcean")
+    ai: ClassVar[tuple[str, ...]] = ("Agents", "LLMs", "RAG", "Prompt Engineering", "MCP")
 
     # ── proyectos ──────────────────────────────────────────────────────────
     projects: ClassVar[dict[str, str]] = {
-        "lemoria":               "Memory & Orchestration OS for AI-assisted development",
-        "core-odoo":             "Self-hosted Odoo 20 software factory: Git environments, modules, observability",
+        "lemoria":               "AI memory & orchestration OS · 8 agents · persistent memory",
+        "core-odoo":             "Self-hosted Odoo 20 software factory · Git envs & observability",
         "livebridge":            "TikTok LIVE SDK for Python · custom Webcast protocol",
         "manel":                 "Security health monitor for dev environments",
         "guardian-live-monitor": "OpenCV + FastAPI + WebSockets live surveillance",
@@ -78,15 +85,19 @@ class Developer:
     }
 
     # ── estado actual ──────────────────────────────────────────────────────
-    learning: ClassVar[tuple[str, ...]] = ("Agent architectures", "Observability", "Rust")
-    open_to: str = "colaboraciones · freelance · open source"
+    currently: ClassVar[tuple[str, ...]] = (
+        "Building Lemoria",
+        "Consulting & AI development at Lanedu",
+        "Teaching AI, cloud & data",
+    )
+    open_to: str = "freelance · consultoría · docencia · open source"
     coffee_level: int = 99  # ☕☕☕
 
     def __str__(self) -> str:
         return f"{self.name} · {self.role} · {self.location}"
 
     def greet(self) -> str:
-        return f"Hey, soy {self.name}. Construyo cosas que funcionan y se ven bien."
+        return f"Hey, soy {self.name}. Construyo backend, automatizo con IA y enseño lo que aprendo."
 
 
 if __name__ == "__main__":
@@ -213,10 +224,9 @@ if __name__ == "__main__":
 
 <div align="center">
   <a href="https://github.com/devcristianlopez"><img src="https://img.shields.io/badge/GitHub-devcristianlopez-0D0221?style=for-the-badge&logo=github&logoColor=00F0FF"/></a>
-  <a href="TODO"><img src="https://img.shields.io/badge/LinkedIn-TODO-0D0221?style=for-the-badge&logo=linkedin&logoColor=00F0FF"/></a>
-  <a href="TODO"><img src="https://img.shields.io/badge/X_/_Twitter-TODO-0D0221?style=for-the-badge&logo=x&logoColor=FFFFFF"/></a>
-  <a href="TODO"><img src="https://img.shields.io/badge/Website-TODO-0D0221?style=for-the-badge&logo=googlechrome&logoColor=FF2A6D"/></a>
-  <a href="mailto:TODO"><img src="https://img.shields.io/badge/Email-TODO-0D0221?style=for-the-badge&logo=gmail&logoColor=FF2A6D"/></a>
+  <a href="https://linkedin.com/in/cristianl0pez"><img src="https://img.shields.io/badge/LinkedIn-cristianl0pez-0D0221?style=for-the-badge&logo=linkedin&logoColor=00F0FF"/></a>
+  <a href="https://lemoria.org/"><img src="https://img.shields.io/badge/Website-lemoria.org-0D0221?style=for-the-badge&logo=googlechrome&logoColor=FF2A6D"/></a>
+  <a href="mailto:cristianlopezvalpo@gmail.com"><img src="https://img.shields.io/badge/Email-cristianlopezvalpo%40gmail.com-0D0221?style=for-the-badge&logo=gmail&logoColor=FF2A6D"/></a>
 </div>
 
 <br/>

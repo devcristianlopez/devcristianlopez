@@ -11,7 +11,7 @@ GitHub solo muestra el README del perfil si el repositorio se llama **igual que 
 
 - [ ] Repo público llamado exactamente `devcristianlopez`
 - [ ] `README.md` en la raíz de la rama `main`
-- [ ] Todos los `TODO` reemplazados
+- [ ] Datos personales actualizados
 - [ ] Actions con permiso de escritura
 - [ ] Workflow `Generate Snake` ejecutado al menos una vez
 - [ ] Perfil revisado en una ventana de incógnito
@@ -34,31 +34,23 @@ gh repo create devcristianlopez/devcristianlopez --public --source=. --remote=or
 1. Crea un repo público llamado exactamente `devcristianlopez`.
 2. Sube `README.md`, la carpeta `assets/` y `.github/workflows/snake.yml`.
 
-## 2. Personalizar los `TODO`
+## 2. Datos del perfil
 
-Busca y reemplaza en `README.md`:
+El README ya está cargado con los datos reales:
 
-| Placeholder | Dónde | Qué poner |
-| :--- | :--- | :--- |
-| `TODO: Tu Nombre` | clase Python | tu nombre real o alias |
-| `TODO: Ciudad, País` | clase + badge `LOCATION` | ej. `Santiago, Chile` |
-| `TODO: tu@email.com` | clase Python | tu correo de contacto |
-| `TODO: https://tu-web.dev` | clase Python | portafolio o blog |
-| `TODO: https://linkedin.com/in/tu-usuario` | clase Python | tu LinkedIn |
-| `TODO: https://x.com/tu-usuario` | clase Python | tu X / Twitter |
-| `TODO: https://youtube.com/@tu-canal` | clase Python | tu canal (si tienes) |
-| `href="TODO"` | sección `CONNECT` | reemplaza por tus URLs reales |
-| `TODO` del badge `LOCATION` | badges superiores | ej. `Santiago-FF2A6D` (usa guiones, no espacios) |
-| `coffee_level` | clase Python | tu nivel real de café ☕ |
+| Campo | Valor |
+| :--- | :--- |
+| Nombre | Cristian López |
+| Rol | Backend Developer & Software Architect |
+| Ubicación | Valparaíso, Chile |
+| Experiencia | 8+ años |
+| Docencia | 4+ años |
+| Web | https://lemoria.org/ |
+| LinkedIn | https://linkedin.com/in/cristianl0pez |
+| GitHub | https://github.com/devcristianlopez |
+| Email | cristianlopezvalpo@gmail.com |
 
-Ejemplo rápido:
-
-```bash
-# nombre
-sed -i 's/TODO: Tu Nombre/Tu Nombre/g' README.md
-# ubicación en el badge
-sed -i 's/LOCATION-TODO/LOCATION-Santiago/g' README.md
-```
+Para actualizar algo, edita el bloque `Developer` y los badges de `README.md`. No se publican teléfono ni historial laboral completo.
 
 ## 3. Activar la serpiente de contribuciones
 
