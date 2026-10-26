@@ -74,6 +74,10 @@ class Developer:
     ai: ClassVar[tuple[str, ...]] = ("Agents", "LLMs", "RAG", "Prompt Engineering", "MCP")
 
     # ── proyectos ──────────────────────────────────────────────────────────
+    sites: ClassVar[dict[str, str]] = {
+        "lemoria":   "https://lemoria.org/",
+        "core-odoo": "https://devcristianlopez.github.io/core-odoo/",
+    }
     projects: ClassVar[dict[str, str]] = {
         "lemoria":               "AI memory & orchestration OS · 8 agents · persistent memory",
         "core-odoo":             "Self-hosted Odoo 20 software factory · Git envs & observability",
@@ -157,10 +161,15 @@ if __name__ == "__main__":
 
 <h2 align="center">⟨ 03 ⟩ · FEATURED.PROJECTS</h2>
 
+<p align="center">
+  <a href="https://lemoria.org/"><img src="https://img.shields.io/badge/LEMORIA-VISITAR_LA_WEB-FF2A6D?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=0D0221" alt="Lemoria website"/></a>
+  <a href="https://devcristianlopez.github.io/core-odoo/"><img src="https://img.shields.io/badge/CORE_ODOO-VISITAR_LA_WEB-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=0D0221&labelColor=0D0221" alt="Core Odoo website"/></a>
+</p>
+
 | ▸ PROYECTO | DESCRIPCIÓN | STACK | |
 | :--- | :--- | :--- | :---: |
-| **[lemoria](https://github.com/devcristianlopez/lemoria)** | Sistema Operativo de Memoria y Orquestación para Desarrollo con IA | `Python` `Agents` `MCP` | ![stars](https://img.shields.io/github/stars/devcristianlopez/lemoria?style=flat-square&color=FF2A6D&labelColor=0D0221) |
-| **[core-odoo](https://github.com/devcristianlopez/core-odoo)** | Fábrica de software self-hosted sobre Odoo 20: entornos Git, módulos, frontends y observabilidad | `TypeScript` `Odoo` `Docker` | ![status](https://img.shields.io/badge/STATUS-NEW-FF2A6D?style=flat-square&labelColor=0D0221) |
+| **[lemoria](https://github.com/devcristianlopez/lemoria)** · [🌐 web](https://lemoria.org/) | Sistema Operativo de Memoria y Orquestación para Desarrollo con IA | `Python` `Agents` `MCP` | ![stars](https://img.shields.io/github/stars/devcristianlopez/lemoria?style=flat-square&color=FF2A6D&labelColor=0D0221) |
+| **[core-odoo](https://github.com/devcristianlopez/core-odoo)** · [🌐 web](https://devcristianlopez.github.io/core-odoo/) | Fábrica de software self-hosted sobre Odoo 20: entornos Git, módulos, frontends y observabilidad | `TypeScript` `Odoo` `Docker` | ![status](https://img.shields.io/badge/STATUS-NEW-FF2A6D?style=flat-square&labelColor=0D0221) |
 
 <details>
 <summary><b>▸ VER TODOS LOS REPOSITORIOS</b></summary>
