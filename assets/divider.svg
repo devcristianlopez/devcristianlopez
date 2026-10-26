@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" fill="none" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00F0FF" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#00F0FF" stop-opacity="0.9"/>
+      <stop offset="0.5" stop-color="#B026FF" stop-opacity="0.9"/>
+      <stop offset="0.75" stop-color="#FF2A6D" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FF2A6D" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="11" width="1200" height="2" fill="url(#line)"/>
+  <g fill="#00F0FF">
+    <rect x="80" y="9" width="6" height="6" rx="1" opacity="0.8"/>
+    <rect x="1114" y="9" width="6" height="6" rx="1" fill="#FF2A6D" opacity="0.8"/>
+  </g>
+  <g stroke="#B026FF" stroke-width="1.5" stroke-opacity="0.8">
+    <path d="M585 4L594 12L585 20"/>
+    <path d="M615 4L606 12L615 20"/>
+  </g>
+  <circle cx="600" cy="12" r="3" fill="#00F0FF">
+    <animate attributeName="r" values="2;5;2" dur="2.6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;1;0.5" dur="2.6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
