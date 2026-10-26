@@ -69,6 +69,7 @@ class Developer:
     # ── proyectos ──────────────────────────────────────────────────────────
     projects: ClassVar[dict[str, str]] = {
         "lemoria":               "Memory & Orchestration OS for AI-assisted development",
+        "core-odoo":             "Self-hosted Odoo 20 software factory: Git environments, modules, observability",
         "livebridge":            "TikTok LIVE SDK for Python · custom Webcast protocol",
         "manel":                 "Security health monitor for dev environments",
         "guardian-live-monitor": "OpenCV + FastAPI + WebSockets live surveillance",
@@ -148,16 +149,17 @@ if __name__ == "__main__":
 | ▸ PROYECTO | DESCRIPCIÓN | STACK | |
 | :--- | :--- | :--- | :---: |
 | **[lemoria](https://github.com/devcristianlopez/lemoria)** | Sistema Operativo de Memoria y Orquestación para Desarrollo con IA | `Python` `Agents` `MCP` | ![stars](https://img.shields.io/github/stars/devcristianlopez/lemoria?style=flat-square&color=FF2A6D&labelColor=0D0221) |
-| **[livebridge](https://github.com/devcristianlopez/livebridge)** | SDK Python que conecta TikTok LIVE y normaliza eventos en tiempo real | `Python` `Webcast` `WS` | ![stars](https://img.shields.io/github/stars/devcristianlopez/livebridge?style=flat-square&color=00F0FF&labelColor=0D0221) |
-| **[manel](https://github.com/devcristianlopez/manel)** | Security Health Monitor para entornos de desarrollo 🛡️ | `TypeScript` `CLI` | ![stars](https://img.shields.io/github/stars/devcristianlopez/manel?style=flat-square&color=B026FF&labelColor=0D0221) |
-| **[guardian-live-monitor](https://github.com/devcristianlopez/guardian-live-monitor)** | Video, movimiento y alertas en tiempo real sin recargar página | `Python` `OpenCV` `FastAPI` | ![stars](https://img.shields.io/github/stars/devcristianlopez/guardian-live-monitor?style=flat-square&color=FF2A6D&labelColor=0D0221) |
-| **[boilerplate-django](https://github.com/devcristianlopez/boilerplate-django)** | Django + PostgreSQL + Docker, auth por email y setup automatizado | `Python` `Django` `Docker` | ![stars](https://img.shields.io/github/stars/devcristianlopez/boilerplate-django?style=flat-square&color=00F0FF&labelColor=0D0221) |
-| **[coffe-code](https://github.com/devcristianlopez/coffe-code)** | PWA para preparar café perfecto: V60, Chemex, prensa francesa ☕ | `TypeScript` `PWA` | ![stars](https://img.shields.io/github/stars/devcristianlopez/coffe-code?style=flat-square&color=B026FF&labelColor=0D0221) |
+| **[core-odoo](https://github.com/devcristianlopez/core-odoo)** | Fábrica de software self-hosted sobre Odoo 20: entornos Git, módulos, frontends y observabilidad | `TypeScript` `Odoo` `Docker` | ![status](https://img.shields.io/badge/STATUS-NEW-FF2A6D?style=flat-square&labelColor=0D0221) |
 
 <details>
 <summary><b>▸ VER TODOS LOS REPOSITORIOS</b></summary>
 <br/>
 
+- **[livebridge](https://github.com/devcristianlopez/livebridge)** — SDK Python para TikTok LIVE con protocolo Webcast propio · `Python`
+- **[manel](https://github.com/devcristianlopez/manel)** — Security Health Monitor para entornos de desarrollo · `TypeScript`
+- **[guardian-live-monitor](https://github.com/devcristianlopez/guardian-live-monitor)** — Video, movimiento y alertas en tiempo real · `Python` `OpenCV`
+- **[boilerplate-django](https://github.com/devcristianlopez/boilerplate-django)** — Django + PostgreSQL + Docker listo para producción · `Python`
+- **[coffe-code](https://github.com/devcristianlopez/coffe-code)** — PWA para preparar el café perfecto ☕ · `TypeScript`
 - **[chileonline](https://github.com/devcristianlopez/chileonline)** — Noticias de Chile estilo notas de parche MMORPG · `Astro`
 - **[wardogs-chile-bot](https://github.com/devcristianlopez/wardogs-chile-bot)** — Discord bot + plataforma competitiva · `Python`
 - **[falcon-control-hub](https://github.com/devcristianlopez/falcon-control-hub)** — Control hub · `Python`
