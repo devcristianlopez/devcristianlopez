@@ -7,6 +7,15 @@ el header animado y el workflow que genera la serpiente de contribuciones.
 
 GitHub solo muestra el README del perfil si el repositorio se llama **igual que tu usuario** y es **público**.
 
+## ✅ Checklist rápido
+
+- [ ] Repo público llamado exactamente `devcristianlopez`
+- [ ] `README.md` en la raíz de la rama `main`
+- [ ] Todos los `TODO` reemplazados
+- [ ] Actions con permiso de escritura
+- [ ] Workflow `Generate Snake` ejecutado al menos una vez
+- [ ] Perfil revisado en una ventana de incógnito
+
 ### Opción A — con GitHub CLI (recomendado)
 
 Desde esta carpeta:
